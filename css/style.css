@@ -2,6 +2,7 @@ body{
 	margin:0;
 	padding: 0;
 	background:gray;
+	font-family: 'Yrsa', serif;  
 }
 
 h1,h2,h3,h4,h5{
@@ -75,13 +76,6 @@ nav a:hover{
 	font-size: 20px;
 
 }
-.logo img:hover{
-	border-color: #79ff61;
-	transition: 0.5s;
-	border-radius: 5px;
-	width: 202px;
-	height: 53px;
-}
 .intro{
 	width:100%;
 	height: 500px;
@@ -112,87 +106,7 @@ nav a:hover{
 	font-family: 'Yrsa', serif;  
 	background:transparent; 
 }
-.services{
-	width:100%;
-	height:500px;
-	background:#CCD1D1;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content:space-around;
-	align-items: center;
-	font-size:25px;
-	text-align: center;
-	font-family: 'Yrsa', serif; 
-}/
-.services .next {
-	top:50%;
-	width:50px;
-	height:20px;
-	color: black;
-	
-}
-.services .next a{
-	top:50%;
-	text-decoration:none;
-	color: black;
-}
-.services a:hover{
-	text-decoration:none;
-	color: white;
-}
-.ser-artical,.ser-news{
-	padding:20px;
-	margin: 80px auto;
-	width:350px;
-	height:300px;
-	top:50%;
-	justify-content: space-between;
-	box-sizing: 0 5px 15px rgba(0,0,0,.1);
-	border-radius: 4px;
-	box-sizing: border-box;
-	box-shadow: all;
-	shape-margin: circle;
-
-}
-.services h3{
-	position: relative;
-	justify-content: center;
-	text-align: center;
-	font-size: 40px;
-	border-radius: 10px;
-	color: white;
-	border-radius: 4%;
-
-}
-.ser-artical h3{
-	background-color: #5DADE2;
-	box-shadow: 0 0 0 #5DADE2;
-	
-}
-.ser-news h3{
-		background-color:#F7DC6F;
-}
-
-.ser-artical h3:hover{
-	background-color: white;
-	color: #5DADE2;
-	transition: 0.2s;
-}
-.ser-artical:hover{
-	background-color: #5DADE2;
-	color:white;
-	transition: 0.2s;
-}
-.ser-news h3:hover{
-	background-color: white;
-	color: #F7DC6F;
-	transition: 0.2s;
-}
-.ser-news:hover{
-	background-color: #F7DC6F;
-	color:white;
-	transition: 0.2s;
-}
+/*
 .artical{
 	width:100%;
 	height:600px;
@@ -202,13 +116,14 @@ nav a:hover{
 	width:100%;
 	height:600px;
 	background:#D5DBDB;
-}
+}*/
 .footer{
 	width:100%;
-	height: 40px;
+	height:40px;
 	background:black;
 	color: white;
 	position: absolute;
+	bottom: 0;
 }
 .footer_text{
 	position: absolute;
@@ -217,12 +132,106 @@ nav a:hover{
 	font-size: 20px;
 }
 
-
-
-
-
 /*for computer devices*/
 
-@media all and (max-width:)
+@media all and (max-width:1025px)
+{	
+
+	
+.intro_text  {
+	position: absolute;
+	top:30%;
+	left:10%;
+	color: white;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: 'Yrsa', serif;  
+	background:transparent; 
+}
+.intro_text p {
+	position: absolute;
+	border:0;
+	top:45%;
+	left:27.55%;
+	color: white;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: 'Yrsa', serif;  
+	background:transparent; 
+}
+
+@media all and (max-width:770px)
+{	
+
+	
+.intro_text  {
+	position: absolute;
+	top:30%;
+	left:20%;
+	color: white;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: 'Yrsa', serif;  
+	background:transparent; 
+}
+.intro_text p {
+	position: absolute;
+	border:0;
+	top:90%;
+	left:10%;
+	color: white;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: 'Yrsa', serif;  
+	background:transparent; 
+}
+
+}
 
 /*for moblie devices */
+
+@media all and (max-width: 500px)
+{
+	.logo img {
+	width: 300px;
+	height: 70px;
+	position: absolute;
+
+	}
+	nav{
+	width: 200%;
+	height: 80px;
+	background-color: black;
+	overflow: auto;
+	text-align: center;
+	}
+	.intro{
+	width:800px;
+	height: 500px;
+	background-position: absolute;
+	background:url("../images/matrix.gif");
+	opacity: 0.7;
+	}
+	.intro_text  {
+	position: absolute;
+	top:30%;
+	left:10%;
+	color: white;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: 'Yrsa', serif;  
+	background:transparent; 
+	}
+.intro_text p {
+	position: absolute;
+	border:0;
+	top:45%;
+	left:27.55%;
+	color: white;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: 'Yrsa', serif;  
+	background:transparent; 
+	}
+}
+
