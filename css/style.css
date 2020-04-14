@@ -136,7 +136,9 @@ nav a:hover{
 
 @media all and (max-width:1025px)
 {	
-
+nav{
+	overflow:hidden;
+}
 	
 .intro_text  {
 	position: absolute;
@@ -186,6 +188,11 @@ nav a:hover{
 	font-family: 'Yrsa', serif;  
 	background:transparent; 
 }
+nav{
+
+	overflow: hidden;
+	
+	}
 nav a:hover{
 	border-color:black;
 	border-spacing: 2px;
