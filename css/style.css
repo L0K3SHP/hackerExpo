@@ -166,6 +166,7 @@ nav a:hover{
 	
 .intro_text  {
 	position: absolute;
+	margin: 0 auto;
 	top:30%;
 	left:20%;
 	color: white;
@@ -176,14 +177,21 @@ nav a:hover{
 }
 .intro_text p {
 	position: absolute;
+	margin: 0 auto;
 	border:0;
 	top:90%;
-	left:10%;
 	color: white;
 	font-weight: bolder;
 	font-size:30px;
 	font-family: 'Yrsa', serif;  
 	background:transparent; 
+}
+nav a:hover{
+	border-color:black;
+	border-spacing: 2px;
+	font-family: 'Yrsa', serif;
+	text-transform: none;
+	font-size: 17px;
 }
 
 }
@@ -192,6 +200,20 @@ nav a:hover{
 
 @media all and (max-width: 500px)
 {
+	body{
+	margin:0;
+	padding: 0;
+	background:gray;
+	font-family: 'Yrsa', serif;  
+}
+
+	.container{
+	margin: 0;
+	padding: 0;
+	overflow-wrap:all; 
+	width:100%;
+	height: 100%;
+	}
 	.logo img {
 	width: 300px;
 	height: 70px;
@@ -199,10 +221,10 @@ nav a:hover{
 
 	}
 	nav{
-	width: 200%;
+	width:142vh;
 	height: 80px;
 	background-color: black;
-	overflow: auto;
+	overflow: hidden;
 	text-align: center;
 	}
 	.intro{
@@ -214,24 +236,41 @@ nav a:hover{
 	}
 	.intro_text  {
 	position: absolute;
-	top:30%;
-	left:10%;
+	margin: 0 auto;
+	width:500px;
+	top:50%;
+	left:50%;
 	color: white;
 	font-weight: bolder;
-	font-size:30px;
+	font-size:10px;
 	font-family: 'Yrsa', serif;  
 	background:transparent; 
+	}
+
+	.intro_text h1{
+		font-size:75px; 
 	}
 .intro_text p {
 	position: absolute;
 	border:0;
-	top:45%;
-	left:27.55%;
+	margin: 0 auto;
+	top:85%;
+	left:15vh;
 	color: white;
 	font-weight: bolder;
 	font-size:30px;
 	font-family: 'Yrsa', serif;  
 	background:transparent; 
 	}
+
+	.footer{
+	width:142vh;
+	height:40px;
+	background:black;
+	color: white;
+	position: relative;
+	bottom: 0;
+	margin:0 auto;
+}
 }
 
