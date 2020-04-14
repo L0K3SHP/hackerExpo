@@ -188,6 +188,27 @@ nav{
 	font-family: 'Yrsa', serif;  
 	background:transparent; 
 }
+.intro_text h1{
+		font-size:75px; 
+	}
+/*
+
+	.intro_text h1{
+		font-size:75px; 
+	}
+.intro_text p {
+	position: absolute;
+	border:0;
+	margin: 0 auto;
+	top:85%;
+	left:15vh;
+	color: white;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: 'Yrsa', serif;  
+	background:transparent; 
+	}
+*/
 nav{
 
 	overflow: hidden;
