@@ -205,7 +205,7 @@ nav a:hover{
 	padding: 0;
 	background:gray;
 	font-family: 'Yrsa', serif;  
-}
+	}
 
 	.container{
 	margin: 0;
@@ -215,7 +215,7 @@ nav a:hover{
 	height: 100%;
 	}
 	.logo img {
-	width: 300px;
+	width: 250px;
 	height: 70px;
 	position: absolute;
 
