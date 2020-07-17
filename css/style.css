@@ -79,6 +79,10 @@ a{
     align-items: center;
 }
 
+.footer-logo{
+    text-align: center;
+}
+
 .footer-t h1{
     margin:0px
 }
