@@ -222,7 +222,7 @@ a{
         position:absolute;
         height:32vh;
         width:100%;
-        top:8%;
+        top:10%;
         right:0;
         text-align: center;
         background: black;
@@ -242,7 +242,7 @@ a{
     
     .intro{
         position: relative;
-        top:30vh;
+        top:28vh;
     }
  
     /*
