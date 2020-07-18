@@ -19,9 +19,9 @@ body{
 
 .header{
     margin:0;
-    height:50%;
+    height:30%;
     width:100%;
-    background-color: black;
+    background-color:black;
     color: white;
     display: flex;
     align-items: center;
@@ -40,7 +40,6 @@ body{
     height:70px;
 }
 
-/*ul,li,a*/
 .header-ul,.header-li,.header-a,.footer_nav_link,.footer-ul,.footer-li{
    margin:0; 
    text-decoration: none;
@@ -201,27 +200,11 @@ a{
 }
 */
 @media(max-width: 700px)
-{   
+{   /*
     .logo{
-       position: relative;
-      left:-90px;
-    }
-
-    .header{
-        margin:0;
-        height:50%;
-        width:100%;
-        background-color: black;
-        color: white;
-        align-items: center;
-        font-size: 15px;
-    }
-        
-
-    .header-ul,.header-li,.header-a{
-        margin:0; 
-        color:white;
-     }
+       position: ab;
+        left:-90px;
+    }*/
 
      .navbar-toggle{
         position: absolute;
@@ -232,8 +215,52 @@ a{
         font-size: 24px;
         display: block;
     }
-     
-    .navbar,.log-but{
-      display: none;
+
+    .header-ul{
+        padding-left: 0;
+        position:absolute;
+        height:50vh;
+        width:200%;
+        top:12%;
+        left:0;
+        text-align: center;
+        background: black;
+        overflow-x: hidden;
     }
+
+    .header-ul,.header-li,.log-but{
+        display: block;
+    }
+
+    .header-a{
+        text-align: center;
+    }
+
+    .intro{
+        position: relative;
+        top:40vh;
+    }
+     /*
+    .navbar,.log-but{
+     display: none;
+     position: absolute;
+     width: 100%;
+     height: calc(100vh-50px);
+     background: black;
+     transition: 0.5s;
+    }
+
+    .navbar{
+        top: 70px;
+        left: 0;
+    }
+    .log-but
+    {
+        top:270px;
+        left: 0;
+    }
+    .header-ul{
+        display: block;
+        text-align: center;
+    }*/
 }
