@@ -199,6 +199,7 @@ a{
     }
 }
 */
+
 @media(max-width: 700px)
 {   /*
     .logo{
@@ -219,28 +220,32 @@ a{
     .header-ul{
         padding-left: 0;
         position:absolute;
-        height:50vh;
+        height:32vh;
         width:100%;
-        top:12%;
-        left:0;
+        top:8%;
+        right:0;
         text-align: center;
         background: black;
         overflow-x: hidden;
+        align-items: center;
     }
 
     .header-ul,.header-li,.log-but{
         display: block;
+      
     }
 
     .header-a{
         text-align: center;
+       
     }
-
+    
     .intro{
         position: relative;
-        top:40vh;
+        top:30vh;
     }
-     /*
+ 
+    /*
     .navbar,.log-but{
      display: none;
      position: absolute;
