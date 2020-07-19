@@ -205,7 +205,7 @@ a{
     .logo{
        position: absolute;
         left:12px;
-        top:10px;
+        top:2px;
     }
 
     .header{
@@ -251,40 +251,17 @@ a{
     .active{
         display:block;
     }
-    .intro{
+    
+    .intro1, .intro1 h1, .intro1 h3{
         position: relative;
         top:45vh;
-      /*  background: black;*/
+        background: black;
+        color: #000000;
     }
-
     .intro h1{
         top: auto;
     }
     .intro h3{
         top: auto;
     }
- 
-    /*
-    .navbar,.log-but{
-     display: none;
-     position: absolute;
-     width: 100%;
-     height: calc(100vh-50px);
-     background: black;
-     transition: 0.5s;
-    }
-
-    .navbar{
-        top: 70px;
-        left: 0;
-    }
-    .log-but
-    {
-        top:270px;
-        left: 0;
-    }
-    .header-ul{
-        display: block;
-        text-align: center;
-    }*/
 }
