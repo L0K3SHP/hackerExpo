@@ -251,7 +251,7 @@ a{
     .active{
         display:block;
     }
-    
+
     .intro1, .intro1 h1, .intro1 h3{
         position: relative;
         top:45vh;
