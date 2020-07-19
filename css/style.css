@@ -19,7 +19,7 @@ body{
 
 .header{
     margin:0;
-    height:30%;
+    height:15vh;
     width:100%;
     background-color:black;
     color: white;
@@ -28,7 +28,7 @@ body{
     justify-content:space-evenly;
     overflow: hidden;
     position: static;
-    font-size: 15px;
+    font-size: 20px;
 }
 .header-logo{
     height:70%;
@@ -201,15 +201,24 @@ a{
 */
 
 @media(max-width: 700px)
-{   /*
+{   
     .logo{
-       position: ab;
-        left:-90px;
-    }*/
+       position: absolute;
+        left:12px;
+        top:10px;
+    }
 
+    .header{
+        height: 10vh;
+        background: #000000;
+    }
+
+    .header-logo{
+        height:15vh;
+    }
      .navbar-toggle{
         position: absolute;
-        top: 10px;
+        top: 25px;
         right: 20px;
         cursor: pointer; 
         color:white;
@@ -220,29 +229,39 @@ a{
     .header-ul{
         padding-left: 0;
         position:absolute;
-        height:32vh;
+        height:90vh;
         width:100%;
-        top:10%;
+        top:10vh;
         right:0;
         text-align: center;
         background: black;
-        overflow-x: hidden;
         align-items: center;
+        font-size: 25px;
     }
 
-    .header-ul,.header-li,.log-but{
+    .header-ul,.header-li,.header-a,.log-but{
         display: block;
-      
-    }
-
-    .header-a{
         text-align: center;
-       
     }
     
+    .navbar{
+    display: none;
+    }
+
+    .active{
+        display:block;
+    }
     .intro{
         position: relative;
-        top:28vh;
+        top:45vh;
+      /*  background: black;*/
+    }
+
+    .intro h1{
+        top: auto;
+    }
+    .intro h3{
+        top: auto;
     }
  
     /*
