@@ -46,6 +46,7 @@ body{
    list-style-type: none;
    color: white;
    display: flex;
+  
 }
 
 li{
@@ -237,6 +238,11 @@ a{
         background: black;
         align-items: center;
         font-size: 25px;
+        transition:width 1s ease-out 0.1s;
+       /*
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+        transition-delay: 0.1s;*/
     }
 
     .header-ul,.header-li,.header-a,.log-but{
@@ -254,7 +260,7 @@ a{
 
     .intro1, .intro1 h1, .intro1 h3{
         position: relative;
-        top:45vh;
+        top:55vh;
         background: black;
         color: #000000;
     }
