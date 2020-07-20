@@ -49,12 +49,16 @@ body{
   
 }
 
+.icon_lnk{
+    text-decoration: none;
+    color: #ffffff;
+}
 li{
     text-align: center;
     padding:18px 15px;
     
 }
-a{
+a {
     text-decoration: none;
     text-indent: 1px;
 }
@@ -124,6 +128,7 @@ a{
 .fa-facebook:before,.fa-whatsapp:before,.fa-instagram:before,.fa-youtube:before,.fa-telegram:before{
     font-size: 25px;
     padding:15px;
+    text-decoration:none;
 }
 
 .fa-facebook:hover,.fa-whatsapp:hover,.fa-instagram:hover,.fa-youtube:hover,.fa-telegram:hover{
