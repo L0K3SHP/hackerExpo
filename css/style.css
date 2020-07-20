@@ -120,12 +120,12 @@ a{
    
 }
 
-.fa-facebook:before,.fa-twitter:before,.fa-instagram:before,.fa-youtube:before{
+.fa-facebook:before,.fa-twitter:before,.fa-instagram:before,.fa-youtube:before,.fa-telegram:before{
     font-size: 25px;
     padding:15px;
 }
 
-.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-youtube:hover{
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-youtube:hover,.fa-telegram:hover{
     
     color:#38D506 ;
     cursor: pointer;
